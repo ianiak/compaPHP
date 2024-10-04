@@ -1,0 +1,92 @@
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://th.bing.com/th/id/R.c9233ddef92915da6d98cc9d03c72e89?rik=BNKeTJseTBxIwQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+
+
+}
+
+.container{
+
+
+
+    margin: 50px 200px;
+    background-color: aqua;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+input{
+
+    padding: 5px;
+    margin:  15px;
+
+
+}
+h3{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+select{
+    width: 30%;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+   
+
+
+
+}
+header ul{
+    display: flex;
+    margin: 10px 30px;
+    
+    align-items: center;
+    justify-content: center;
+}
+header ul li{
+padding: 20px;
+list-style-type: none;
+
+}
+header ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    transition: font-size 0.1s;
+}
+header ul li a:hover{
+
+    font-size: 1.3em;
+    background-color: black;
+    text-decoration: underline;
+
+
+}
